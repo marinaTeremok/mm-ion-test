@@ -1,0 +1,14 @@
+<div class="fact-container">
+        <span class="title">Find the Factorail coding challendge</span>
+        <div class="inner-factorial">
+                <label class="input-label">Factorial:</label>
+                <br>
+                <input class="input-factorial" name="setFactorial" (keyup)="onKey($event)">
+                <br>
+                <label class="input-label">Result</label>
+                <br>
+                <input class="result-factorial" name="getFactorial" value="{{result}}" readonly>
+                <br>
+                <div *ngIf="!isValidInput" class="input-error">Please enter the valid number</div>
+        </div>
+</div>

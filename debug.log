@@ -1,0 +1,4 @@
+[1008/220933.237:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1008/220933.592:ERROR:file_io_win.cc(161)] CreateFile C:\Users\Marina\AppData\Local\Temp\karma-51016490\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1008/220933.599:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/220933.605:ERROR:crash_report_database_win.cc(469)] failed to stat report

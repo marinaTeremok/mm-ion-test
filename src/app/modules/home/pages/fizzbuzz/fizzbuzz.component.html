@@ -1,0 +1,12 @@
+<div class="fb-container">
+        <span class="title">FizzBuzz coding challendge</span>
+        <div class="inner-fizzbuzz">
+                <button class="btn-fizzbuzz fizzbuzz-start" id="startFizzBuzz" (click)="onStartFizzBuzz($event)">Start Fizz Buzz</button>
+                <button class="btn-fizzbuzz fizzbuzz-stop" id="stopFizzBuzz" (click)="onStopFizzBuzz($event)">Stop Fizz Buzz</button>
+                <ul>
+                        <li *ngFor="let result of results">
+                                <span class="result-fizzbuzz">{{ result }}</span>
+                        </li>
+                </ul>
+        </div>
+</div>

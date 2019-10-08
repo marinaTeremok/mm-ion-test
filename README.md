@@ -1,3 +1,9 @@
+#Pre Rec
+1. Install ng2-charts using npm
+npm install ng2-charts@2.3.0 --save
+2. You need to install Chart.js library (it is a peer dependency of this library) 
+npm install chart.js --save
+
 # MmIonTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.7.
